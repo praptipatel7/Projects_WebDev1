@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Century Gothic", Verdana, Geneva, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end ;
+    gap: 30px;
+    padding: 0 30px;
+}
+#nav h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+#nav i{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    font-weight: 500;
+}
+#center{
+    width: 100%;
+    padding: 0 80px;
+}
+#center h1{
+    font-size: 4.1vw;
+    font-weight: 500;
+    line-height: 4.4vw;
+}
+#center-in{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#center-in p{
+    font-size: 1.17vw;
+    font-weight: 500;
+    line-height: 1.8vw;
+}
+#right{
+    width: 20%;
+
+}
+.elem{
+    padding: 15px 0;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.elem a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+.elem i{
+    font-size:23px;
+    font-weight: 500;
+    opacity: 0;
+}
+.elem:hover i{
+    opacity: 1;
+}
+.elem:hover a{
+    text-decoration: underline;
+}
+#bottom{
+    height: 33.8%;
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/1307378301/photo/they-call-us-fashion-icons-around-here.jpg?s=2048x2048&w=is&k=20&c=xQzy-woolKAoPzZEID5y056F4HZmHOUY2dzGpp-VXYk=);
+    background-size: cover;
+    background-position: 20% 21.5%;
+}
+@media (max-width :600px) {
+    #nav{
+        height: 55px;
+        gap: 15px;
+        padding: 0 20px;
+    }
+
+    #nav h4{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    #nav i{
+        font-size: 12px;
+        padding: 7px;
+    }
+    #center{
+        width: 100%;
+        padding: 15px 20px;
+    }
+    #center h1{
+        font-size: 8vw;
+        line-height: 10vw;
+    }
+    #center-in{
+        width: 100%;
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #center-in p{
+        font-size:3vw;
+        font-weight: 500;
+        line-height: 5vw;
+        margin-bottom: 18px;
+    }
+    #right{
+        width: 100%;
+    }   
+    .elem{
+        padding: 10px 0;
+        border-top: 1.5px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 17px;
+    }
+    .elem a{
+        color: #303030;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .elem i{
+        color: #303030;
+        font-size:18px;
+        font-weight: 500;
+        opacity: 1;
+    }
+    #bottom{
+        height: 44.2%;
+        width: 100%;
+        background-position: 70% 10%;
+    }  
+}
